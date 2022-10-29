@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Build a Meal! </h1>
+</header>
+
+<nav>
+<a href="/MyTermProject/insert_carb.html">Insert Carb</a> <br>
+<a href="/MyTermProject/insert_protein.html">Insert Protein</a> <br>
+<a href="/MyTermProject/insert_fat.html">Insert Fat</a> <br>
+</nav>
+
+<section>
+	<h1>Build your Meal!</h1>
+	
+	<form action="BuildMeal" method="POST">
+	
+		Carb: <input type="text" name="carb"> <br />
+		Protein: <input type="text" name="protein"> <br />
+		Fat: <input type="text" name="fat"> <br />
+		
+		<input type="submit" value="Search" />
+	</form>
+
+</section>
+
+<footer>
+</footer>
+</body>
+</html>
